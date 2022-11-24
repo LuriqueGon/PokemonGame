@@ -1,0 +1,64 @@
+// Cabeça
+
+
+Tipos dos Dados:
+
+Itens : 
+Dinheiro : 
+Pokemons : 
+Mortes de Pokemons : 
+
+----------------------------------------------------------------------------- 
+Personagens : (4)
+
+
+Ash
+Brok
+Selena
+E o galeguinho
+
+
+
+Pokemons : (8)
+
+Agua: 
+terra: 
+fogo: 
+Planta: 
+
+Historia : 
+
+"Pergunta o nome do personagem e algumas informações"
+
+
+Parte 1 - preludio da luta
+
+
+Ao completar seus 14 anos, "VARIAVEL DE NOME" escolhe o seu primeiro pokemon, ele escolheu "Varialvel de POKEMON", e então o nomeou como "Variavel NOMEPOKEMON". Após muitas discurssões e desavenças entre ele e seus pais, ele finalmente conseguiu sair na sua jornada pokemon. Lhe foi entregue 10 moedas de prata, 5 pokebolas e 1 poção de restauração de vida (100%).
+
+\Quest\ Qual caminho você deseja escolher? \Quest\
+
+1 - Treinador pokemon;
+2 - Conquistar Insignias;
+3 - Derrotar toda a equipe Rocket;
+4 - Colecionador Pokemons;
+
+
+
+
+If (Rota 1)
+If (Rota 2)
+If (Rota 3){
+
+    Dados (MOSTRAR TODOS OS DADOS());
+
+
+
+    Há muito tempo atrás... Surgiram pessoas que capturavam todos os tipos de pokemons, somente para tortura-los e vende-los. Isso tudo por dinheiro. Essas pessoas logo dividiram seus ideias entre si, e formaram grupos... Um dos principais grupos que rodeiam tudo isso, é o grupo da equipe ROCKET.
+        Em cerca de 5 anos, o crime de pokemons virou um monopolio por meio dos Rockets. Seu objetivo como um Caçador deles, é 
+    derrota-los e salvar todos os pokemons que eles tiverem com eles. Você receberá uma recompensa que variará de 1-15 moedas de prata para cada membro derrotado. e 5-80 moedas de bronze para cada pokemons salvo.
+
+
+
+}
+If (Rota 4)

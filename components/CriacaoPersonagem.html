@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../base.css">
+    <link rel="shortcut icon" href="../src/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="../src/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../src/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../src/favicon-16x16.png">
+    <link rel="manifest" href="../src/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">   
+    <script src="../script/script.js" defer></script>
+    <script src="../script/variaveis.js" defer></script>
+    <script src="../script/PersoLoader.js" defer></script>
+    <title>Pokemon Style Cs</title>    
+</head>
+<body id="BannerPersonagem">
+    <main>        
+        <section class="Banner01">
+            <div class="PersoSelectGen ">
+                <h2>Qual o genêro do seu Personagem?</h2>
+                <select id="Genero">
+                    <option value="GenNone" id="GenNone">Informe o genêro</option>
+                    <option value="Masculino" id="GenMasc">Masculino</option>
+                    <option value="Feminino" id="GenFem">Feminino</option>
+                    <option value="Outro" id="GenOther">Outro</option>
+                </select>
+                <i class="fa-solid fa-arrow-right" id="ButtonGen"></i>
+            </div>
+            <div class="PersoSelectPerso NaoConfirmado">
+                <label for="PersoName">
+                    <p>Insira o nome do seu(a) Personagem
+                        <input type="text" name="PersoName" id="PersoName" maxlength="16">
+                    </p>
+                </label>
+                <i class="fa-solid fa-arrow-right" id="ButtonPerso"></i>
+            </div>
+            <div class="PersoSelectSelect NaoConfirmado">
+                <h1>Selecione o Persogem da sua preferência</h1>
+                <div class="PersoSelectGroup PersoSelectGroupMasc NaoConfirmado">
+                    <div class="Perso" id="PersoMasc01" value="Brook">
+                        <p>Brook</p>
+                        <img src="../img/Brook.png" alt="">
+                    </div>
+                    <div class="Perso" id="PersoMasc02">
+                        <p>Ash</p>
+                        <img src="../img/Ash.png" alt="">
+                    </div>
+                    <div class="Perso" id="PersoMasc03">
+                        <p>Clemont</p>
+                        <img src="../img/clemont.png" alt="">
+                    </div>
+                    <div class="Perso" id="PersoMasc04">
+                        <p>Gray</p>
+                        <img src="../img/Gary.png" alt="">
+                    </div>
+                </div>
+                <div class="PersoSelectGroup PersoSelectGroupFem NaoConfirmado">
+                    <div class="Perso" id="PersoFem01" value="Brook">
+                        <p>Misty</p>
+                        <img src="../img/Misty.png" alt="">
+                    </div>
+                    <div class="Perso" id="PersoFem02">
+                        <p>Serena</p>
+                        <img src="../img/serena (1).png" alt="">
+                    </div>
+                    <div class="Perso" id="PersoFem03">
+                        <p>May</p>
+                        <img src="../img/May.png" alt="">
+                    </div>
+                    <div class="Perso" id="PersoFem04">
+                        <p>Iris</p>
+                        <img src="../img/iris.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Banner02">
+            <i class="fa-solid fa-star" id="Star1"></i>
+            <i class="fa-solid fa-star" id="Star2"></i>
+            <i class="fa-solid fa-star" id="Star3"></i>
+            <div id="ButtonPersoSelect" class="NaoConfirmado"><i class="fa-solid fa-circle-right" id="NewButtonSelect"></i></div>
+        </section>
+        <div class="pokebola">
+            <div class="pokecentro"></div>
+        </div>
+    </main>
+</body>
+</html>

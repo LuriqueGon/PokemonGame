@@ -1,0 +1,74 @@
+body#BodyFase01{
+    background-color: #000;
+    background-image: url('../../img/Cenario.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+header#HeaderFase01{
+    width: 75%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.507);
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .4rem .4rem 4rem .4rem;
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid black;
+    position: relative;
+}
+header#HeaderFase01 h1{
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 1rem 0;
+}
+.InfoHeader .InfoHeaderP p{
+    padding: .5rem;
+    text-align: justify;
+    text-shadow: .1rem .2rem .2rem white;    
+}
+.Wait{
+    display: none;
+}
+.Next, .Before{
+    width: 5%;
+    bottom: 1rem;
+    position: absolute;
+    right: 0;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+.Before{    
+    left: 1.2rem;
+}
+
+.Next:hover, .Before:hover{
+    color: blue;
+}
+.FaseNumeroPag{
+    text-align: center;
+}
+
+#BodyFase01 #IHP04{
+    text-align: center;
+}
+#BodyFase01 #IHP04 h2{padding: 1rem 0;}
+#BodyFase01 #IHP04 p{
+    width: 55%;
+    margin: auto;
+}
+
+#BodyFase01 button.btn{
+    font-size: 3rem;
+    padding: 1rem;
+    width: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.37);
+    border: 3px solid rgba(0, 0, 0, 0.445);
+    border-radius: 15%;
+}
+#BodyFase01 button.btn:hover{
+    background-color: rgba(255, 255, 255, 0.651);
+}

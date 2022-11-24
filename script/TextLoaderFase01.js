@@ -1,0 +1,10 @@
+const Testos = [
+    {'fase': '01', 'IHP' : '01', 'p01':'<p>Nesse mundo há muitas criaturinhas impressionantes...</p>', 'p02':'<p>Criaturas capazes de fazer chover, crescer plantações...</p>', 'p03':'<p>Criaturinhas capazes de trazer paz e amor para todas pessoas.</p>' , 'p04':'<p>Criaturas essas são chamadas de Pokemons.</p>','p05':'<p>Mas claro, o mundo não é só flores... Do mesmo jeito que há muitos pokemons bons, tambem tem muitos ruins, principalmente os que foram corrompidos. Corrompidos pelos homens...</p>'},    
+
+    {'fase': '01', 'IHP': '02', 'p01': '<p>Mas porque? Por quê iriam querer corromper essas criaturinhas belas e perfeitas da mãe natureza?</p>', 'p02': '<p>Pode parecer piada, mas a resposta é simples. Por dinheiro, poder e fama...</p>', 'p03' :`<p>E aqui estamos nós hoje, sofrendo com isso. Então escolhemos você, escolhemos você ${PersoName}</p>`, 'p04' :`<p>Você deverá saltar a todos nós, você é a esperança do mundo Pokemon...</p>`, 'p05' :`<p>Então lute, faça o possivel para nos salvar.</p>`},
+
+    {'fase': '01', 'IHP': '03', 'p01': '<p>Você acabou de completar seus 14 anos, então você tem uma escolha a fazer logo logo...</p>', 'p02': '<p>Em poucos dias, você vai passar pelo ritual Pokemon, aonde escolherá o seu companheiro para toda sua vida.</p>', 'p03' :`<p>Logo após isso você terá algumas outras escolhas...</p>`, 'p04' :`<p>As escolhas da sua profissão. Sua profissão Pokemon.</p>`, 'p05' :`<p>Claro, você pode recusar o envolvimento com a salvação dos pokemons, e ser uma pessoa normal... Mas você é o escolhido, então nos ajude...</p>`},
+
+    {'fase': '01', 'IHP': '04', 'p01': '<h2>Você terá entre 4 opções de escolha : </h2>', 'p02': '<p>Treinador pokemon *</p>', 'p03' :`<p>Conquistar Insignias </p>`, 'p04' :`<p>Derrotar toda a equipe Rocket *</p>`, 'p05' :`<p>Colecionador Pokemons</p>`}
+    
+]

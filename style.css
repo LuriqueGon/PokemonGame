@@ -1,0 +1,270 @@
+body#BodyCenario01{
+    background-image:url('img/PokemonCenario01.png');
+    
+}
+body.Cenario{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body#BodyCenario01 header{
+    background-color: #ffffff71;
+    width: 28%;
+    margin: 2rem auto;
+    padding: .5rem 3.5rem;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    box-shadow: .2rem .2rem .2rem black;
+}
+body#BodyCenario01 #TitlePoke01{    
+    text-align: center;
+    font-size: 1.4rem;
+    padding: .2rem 0;
+}
+body#BodyCenario01 #TitlePoke01 legend{
+    color: wheat;
+    text-shadow: .2rem .2rem .2rem black;
+}
+body#BodyCenario01 aside{
+    background-color: #fce5e591;
+    margin: 15rem auto;
+    text-align: center ;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    width: 55%;
+    box-shadow: .2rem .2rem .2rem rgba(0, 0, 0, 0.507);
+    padding: 1rem 0;
+}
+body#BodyCenario01 aside h2{
+    font-size: 2rem;
+    color: rgb(175, 160, 133);
+    text-shadow: .1rem .1rem .2rem black;
+    margin: 0 0 2rem 0;
+}
+body#BodyCenario01 aside button{
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    padding: .2rem 2rem;
+    border-radius: 2rem;
+}
+body#BodyCenario01 aside button span{
+    width: 25%;
+    height: 25%;
+}
+body#BodyCenario01 aside button span img{
+    object-fit: cover;
+    width: 3%;
+    position: absolute;
+    left: 60rem;
+    top: 24.85rem;
+}
+#BannerPersonagem main{
+    display: flex;
+}
+#BannerPersonagem .Banner01{
+    background-color: red;
+    width: 74%;
+    height: 100vh;
+    border-right: 1.6rem solid black;
+}
+#BannerPersonagem .Banner02{
+    background-color: #fff;
+    width: 26%;
+    height: 100vh;
+    border-left: 1.6rem solid black;
+}
+#BannerPersonagem .pokebola{
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1.4rem solid black;
+    top: 27rem;
+    left: 68rem;
+}
+#BannerPersonagem .pokebola .pokecentro{
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1.4rem solid black;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+#BannerPersonagem .Banner01 .PersoSelectPerso, #BannerPersonagem .Banner01 .PersoSelectGen{
+    width: 25rem;
+    background-color: #fff;
+    padding: 1rem .4rem;
+    margin: 25% auto;
+    border-radius: 2rem;
+    box-shadow: inset 0rem 0rem .3rem rgb(0, 0, 0);
+    text-align: center;
+}
+#BannerPersonagem .Banner01 .PersoSelectGen select#Genero{
+    margin: 1rem 0 0 0;
+    width: 100%;
+    text-align: center;
+    padding: .2rem .5rem;
+    border-radius: 1rem;
+    background-color: #e2d9d9;
+}
+#BannerPersonagem .Banner01 .PersoSelectGen select#Genero:focus{
+    border-radius: 0rem;
+}
+#BannerPersonagem .Banner01 .PersoSelectGen i{
+    font-size: 2.5rem;
+    background-color: transparent;
+    color: black;
+    position: relative;
+    left: 10rem;
+    bottom: -0.2rem;
+    cursor: pointer;
+    padding: 0.2rem 0.52rem;
+    border: 1px solid transparent;
+}
+#BannerPersonagem .Banner01 .PersoSelectGen i:hover{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+#BannerPersonagem .Banner01 .PersoSelectGen i:focus{
+    color: green;
+    border: 1px solid green;
+}
+#BannerPersonagem .Banner01 .PersoSelectPerso label p{
+    font-size: 1.4rem;
+    text-align: center;
+    color: red;
+}
+#BannerPersonagem .Banner01 .PersoSelectPerso label p input{
+    width: 95%;
+    background-color: #fff;
+    border-bottom: 3px solid black;
+    color: black;
+    padding: .2rem .5rem;
+    font-size: 1.2rem;
+}
+#BannerPersonagem .Banner01 .PersoSelectPerso i{
+    font-size: 2.5rem;
+    background-color: transparent;
+    color: black;
+    position: relative;
+    left: 10rem;
+    bottom: -0.2rem;
+    cursor: pointer;
+    padding: 0.2rem 0.52rem;
+    border: 1px solid transparent;
+}
+#BannerPersonagem .Banner01 .PersoSelectPerso i:hover{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+#BannerPersonagem .Banner01 .PersoSelectPerso i:focus{
+    color: green;
+    border: 1px solid green;
+}
+#BannerPersonagem .Banner01 .PersoSelectSelect h1{
+    text-align: center;
+    font-size: 2.4rem;
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 75%;
+    margin: 2rem auto;
+    padding: 1rem 0;
+    border-radius: 25%;
+    box-shadow: inset .4rem .2rem .2rem rgba(0, 0, 0, 0.541);
+    text-shadow: .2rem .1rem .2rem black;
+    color: white;
+}
+#BannerPersonagem .Banner01 .PersoSelectSelect .PersoSelectGroup{
+    margin-top: 1rem;  
+    display: flex;
+}
+#BannerPersonagem .Banner01 .PersoSelectSelect .Perso{
+    width: 24rem;
+    height: 30rem;
+    background-color: rgba(255, 0, 0, 0.61);
+    padding: 5rem 0;
+    margin: 0 .2rem;
+    text-align: center;
+    z-index: 1;
+    border: 1px solid white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+#BannerPersonagem .Banner01 .PersoSelectSelect .Perso:hover{
+    background-color: rgb(179, 2, 2);
+    
+}
+#BannerPersonagem .Banner01 .PersoSelectSelect .Perso:nth-child(3) img{
+    width: 65%;
+    height: 112%;
+    position: relative;
+    top: -3rem;
+}
+#BannerPersonagem .Banner01 .PersoSelectSelect .Perso:nth-child(4) img{
+    width: 48%;
+}
+#BannerPersonagem .Banner01 .PersoSelectSelect .Perso img{
+    width: 90%;
+    height: 98%;
+    object-fit: cover;
+}
+#BannerPersonagem .Banner01 .PersoSelectGroupFem .Perso:nth-child(1) img{
+    width: 60%;
+}
+#BannerPersonagem .Banner01 .PersoSelectGroupFem .Perso:nth-child(2) img{
+    width: 58%;
+}
+#BannerPersonagem .Banner01 .PersoSelectGroupFem .Perso:nth-child(3) img{
+    width: 88%; 
+}
+#BannerPersonagem .Banner01 .PersoSelectGroupFem .Perso:nth-child(4) img{
+    width: 92%; 
+}
+
+#BannerPersonagem .Banner01 .PersoSelectSelect .Perso p{
+    width: 25%;
+    margin: auto;
+    font-size: 2rem;
+    color: blue;
+    text-shadow: .1rem .2rem .2rem black;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    bottom: 3.7rem;
+}
+#BannerPersonagem .Banner01 .PersoSelectSelect .Perso:nth-child(3) p{
+    left: -1rem;
+}
+
+
+#BannerPersonagem .Banner02{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+    height: 96vh;
+}
+#BannerPersonagem .Banner02 .StarActive{
+    color: yellow;
+}
+#BannerPersonagem .Banner02 div{
+    margin-top: 25rem;
+
+}
+#BannerPersonagem .Banner02 div i{
+    font-size: 6rem;
+    cursor: pointer;
+    color: #686363;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+#BannerPersonagem .Banner02 div i:hover{
+    color: blue;
+    border: 1px solid rgb(225, 0, 255);
+}
